@@ -1,0 +1,316 @@
+.App {
+  text-align: center;
+}
+
+/*header*/
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+.docplanner-header {
+	display :flex;
+	justify-content : space-around;
+	background-color: white;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo-docplanner-header {
+	width: 268px;
+  height: 33px;
+  padding: 1.5em;
+}
+.menu{
+	display: flex;
+	justify-content:space-between;
+	width: 268px;
+    height: 33px;
+    padding: 1.5em;
+    
+}
+.menu a{
+	text-decoration: none;
+	color: #747474;
+
+}
+.menu a:hover{
+	color: #00b39b;
+}	
+
+/*healthcareExperience*/
+.introduction{
+	display: flex;
+	flex-direction :column ;
+	align-items :center;
+	padding-top: 2em;
+
+}
+.title{
+	color: #00b39b;
+}
+.paragraphe-introduction{
+	color: #747474;
+  display: flex;
+  font-size: 17px;
+
+}
+.paragraphe-introduction p{
+	padding: 3em;
+
+}
+
+
+.lead__logo{
+	display: block;
+}
+/*information*/
+.patients-doctors{
+	display : flex;
+	justify-content :space-around;
+	align-items:center;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+
+}
+.for-patients{
+	background-color: #00ccb1;
+	height: 32em;
+	width: 27em;
+	border-radius: 10px;
+    padding: 1.375em 2.5em 0;
+    overflow: hidden;
+}
+.for-doctors{
+	background-color: #3d83df;
+	height: 32em;
+	width: 27em;
+	border-radius: 10px;
+    padding: 1.375em 2.5em 0;
+    overflow: hidden;
+}
+.introduction-patients{
+	display: block;
+
+
+}
+.other h1{
+	color:#ffffff;
+}
+.other h5{
+	color: #a2d5f5;
+}
+.for-patients .button{
+	background-color: white;
+	height: 4em;
+	width: 14em;
+}
+.image-patients{
+	padding: 1em 0em 3em 15em;
+	height: 17em;
+	width: 17em;
+
+
+}
+.image-doctors{
+	padding: 4em 0em 3em 15em;
+	height: 17em;
+	width: 17em;
+
+
+}
+/*culture*/
+.introduction{
+	margin-left:2.5em;
+}
+.intro-logo{
+	float: left;
+	width: 100%;
+	font-size: 1.625em;
+	margin: .25em 0 .35em;
+	padding-left: 3em;
+	color: #00b39b;
+	padding-top: 1.5em;
+	font-weight: 300;
+  letter-spacing: .3px
+}
+.culture{
+	display :flex;
+	justify-content : space-between;
+}
+.logo{
+	display : flex;
+	flex-wrap : wrap;
+	padding-left:7em;
+	margin-top: 4em;
+}
+.logo-docplanner{
+	color: #c4c4c4;
+	fill :#c5c5c5;
+	padding-top : 2em;
+	padding-left: 2em;
+	font-size: 15px;
+}
+.image-link{
+	height: 60%;
+  width: 60%;
+} 
+.logo-docplanner :hover{
+	background-color: #00b39b;
+
+}
+/* plateform */
+.plateform{
+	display : flex;
+	background-color: #d5f5f5;
+	height: 47em;
+}
+.bloc{
+	background-color: white;
+	width: 14em;
+	height: 18em;
+	padding: 15px;
+	text-align: center;
+}
+.listbloc{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+}
+.platforme-word{
+	padding-left: 13em;
+	padding-top: 7em;
+}
+.platforme-word img{
+	padding-top: 5em;
+}
+.platforme-word h1{
+	margin-top: 2em;
+	color:#00b39b;
+}
+#plateform-01{
+	margin-top: 3em;
+	margin-left :2em;
+}
+#plateform-11{
+	margin-top: 1.5em ;
+	margin-right:2em;
+
+}
+.container{
+	height: 25em;
+	margin-top: 1.5em;
+	overflow: hidden;
+}
+.lead__logo{
+	overflow: hidden;
+}
+#plateform-21{
+	margin-left :2em;
+} 
+#plateform-31{
+	margin-right :2em;
+	margin-bottom: 2em;
+} 
+.bloc h2{
+	color:#00b39b;
+}
+/* theoffice */
+.team-docplanner{
+	display: flex;
+	justify-content:center;
+	padding-top: 4em;
+}
+.team-docplanner label{
+	padding-left: 2em;
+}
+.team-docplanner h1{
+	padding-left: 2em;
+	color:#00b39b;
+	font-size: 2.5em;
+	font-weight: 450;
+}
+.team-docplanner p{
+	color:#747474;
+	text-align: center;
+}
+/* city */
+.cities{
+	display : flex;
+	flex-flow: wrap;
+	padding-left: 6em;
+}
+.image-city{
+	max-width: 100%;
+    height: auto;
+}
+
+.name-city{
+	display: flex;
+	justify-content:space-between;
+	padding-top:1em;
+
+}
+.name-city a{
+	text-decoration: none;
+	color: #747474;
+}
+.city{
+	padding: 1em;
+}
+.name-city button{
+	background-color: #3d83df;
+	color:white;
+	height: 2.3em;
+	width: 9em;
+	border: none;
+	border-radius: 6px;
+}
+.button-link a{
+	color : white;
+}
+
+/* footer */
+.footer{
+	border-top: 2px solid #eef2f2;
+	color :#ababab;
+	margin-top: 4em;
+	font-size: .75em;
+	text-align: center;
+}
+.footer p{
+	padding-top: 1em;
+}
+.footer label{
+	color :blue;
+}
+.first-paragraph{
+	padding-left: 3em;
+}
+
+/* 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
